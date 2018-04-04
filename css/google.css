@@ -87,6 +87,8 @@ footer{
     position: relative;
     top:375px;
     background-color: #f2f2f2;
+    padding-left: 35px;
+    padding-right: 35px; 
 }
 
 footer > nav {
@@ -105,7 +107,7 @@ footer > nav > div#fd{
 footer > nav > div#fg{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start; 
+    justify-content: flex-start;
 }
 
 footer > div#mad{
@@ -130,4 +132,7 @@ a:hover{
 
 p#p{
     font-size: 13px;
+}
+hr{
+    width: 100%;
 }
