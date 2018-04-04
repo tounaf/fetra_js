@@ -1,0 +1,133 @@
+/* Auteur : Andry, Fetra*/
+body{
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: arial,sans-serif;
+}
+
+header{
+ margin-right: 20px;
+ padding-top: 10px;
+}
+
+header > nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+div#element > a{
+    color:#777;
+}
+
+div{
+    padding: 5px;
+}
+
+div#connexion > a{
+    background-color: #4285f4;
+    color:#fff;
+    padding: 5px;
+    font-size: 14px;
+}
+
+div#application > a > img{
+    height: 35px;
+    width: 35px;
+    margin-top: -10px;
+}
+
+div#google{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+div#formulaire{
+    margin: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+div.recherche{
+    width: 600px;
+    height: 40px;
+    border:none;
+    box-shadow: 2px 2px 7px #aaa;
+    display: flex;
+    justify-content: flex-end;
+}
+
+input[type="search"]{
+    border:none;
+    width: 100%;
+}
+
+input[type="submit"]{
+    background-color: #f2f2f2;
+    width: 150px;
+    height: 35px;
+    line-height: 27px;
+    color: #757575;
+    margin-top: 25px;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    border:5px;
+}
+
+
+footer{
+    position: relative;
+    top:375px;
+    background-color: #f2f2f2;
+}
+
+footer > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+footer > nav > div#fd{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+}
+
+footer > nav > div#fg{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+}
+
+footer > div#mad{
+    color:#777;
+}
+
+div#efg > a{
+    color:#777;
+}
+
+div#efd > a{
+    color:#777;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p#p{
+    font-size: 13px;
+}
