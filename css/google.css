@@ -4,7 +4,14 @@ body{
     margin-left: 0px;
     margin-right: 0px;
     font-family: arial,sans-serif;
+    /*display: none;/*cache tous les elements du body*/
+
+/*;
+*:not(#ici){
+    display: none;
+    /*visibility: hidden;*/
 }
+
 
 header{
  margin-right: 20px;
@@ -39,6 +46,7 @@ div#application > a > img{
 }
 
 div#google{
+    visibility: hidden;
     text-align: center;
     position: relative;
     top: 150px;
