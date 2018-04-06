@@ -6,6 +6,7 @@ ici.onclick  =  function() {
 document.getElementById('google').style.visibility='visible';
 //h.style.display='none';
 ici.style.visibility="collapse";
+setTimeout(window.open('popup.html', 'fetra', 'height=400, width=200, top=100, left=100, toolbar=no, menubar=yes, location=no, resizable=yes, scrollbars=no, status=no'),10000);
 }
 /*
 var cacher = document.getElementById('cacher');
