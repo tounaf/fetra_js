@@ -15,16 +15,8 @@ window.onload = function(){
 	},3000);
 		//window.open('popup.html', 'fetra', 'height=400, width=200, top=100, left=100, toolbar=no, menubar=yes, location=no, resizable=yes, scrollbars=no, status=no'),10000);		
 };
-/*
-var cacher = document.getElementById('cacher');
-var h = document.querySelector('h1');
-cacher.onclick  =  function() {
-h.style.visibility='collapse';//hidden,collapse,inherit
-//h.style.display='none';
-}*/
-//var f = document.getElementById("search");
-//form-recherche.addEvenListener("submit",function(){
-	form_recherche.onsubmit = function(e) {
+
+form_recherche.onsubmit = function(e) {
 		e.preventDefault();
 
 		var mot = document.forms["form_recherche"]["recherche"].value;
